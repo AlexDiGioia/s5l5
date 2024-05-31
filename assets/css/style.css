@@ -125,12 +125,13 @@ main
 
 .trendingArticles{
 display: flex;
+justify-content: space-between;
 flex-wrap: wrap;
 margin-top: 1rem;
 
 }
 .trendArticle{
-    width: 33%;
+    width: 30%;
     margin-bottom: 2.5rem;
 
 }
@@ -152,7 +153,7 @@ margin-top: 1rem;
     font-family: "Spectral", serif;
     font-size: 2.5rem;
     font-weight: 900;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 .trendArticle p{
     color: #6B7481;
