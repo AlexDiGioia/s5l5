@@ -29,7 +29,7 @@ nav{
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 4;
 }
 .nav-spacing{
     flex-grow: 1;
@@ -168,13 +168,21 @@ margin-top: 1rem;
 .trendArticle h3{
     font-family: "Roboto", sans-serif;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: 800;
     letter-spacing: 0.5px;
 }
 .articles{
    padding-left: 15%;
+   padding-right: 15%;
    border-radius: 10px;
-   width: 47%;
+   display: flex;
+   justify-content: space-between;
+   gap: 5vw;
+
+}
+.articleList{
+    width: 40%;
 }
 
 .infoBtn{
@@ -208,6 +216,7 @@ margin-top: 1rem;
 .article h3{
     font-family: "Roboto", sans-serif;
     margin-top: 1rem;
+
     font-weight: 800;
     font-size: 1.4rem;
     letter-spacing: 0.5px;
@@ -222,5 +231,41 @@ margin-top: 1rem;
     margin-top: 1rem;
     font-size: 1.1rem;
     line-height: 1.5rem;
+}
 
+.filter{
+    vertical-align:middle;
+    border-bottom: 1px solid #E4E5E5;
+    padding-bottom: 1.5rem;
+}
+.filter h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;;
+    font-size: 1rem;
+}
+
+.filterBtn{
+    background-color: white;
+    border: 1.6px solid #E4E5E5;
+    color: #717171;
+    border-radius: 3px;
+    padding: 6px 16px;
+    margin-right: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+.other{
+    margin-top: 3.6rem; 
+}
+
+.linksBtn{
+    border: 0;
+    background-color: white;
+    color: #717171;
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+.links{
+    margin-top: 1rem;
 }

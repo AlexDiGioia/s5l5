@@ -38,7 +38,7 @@ scrollNavbar = () => {
   if (document.documentElement.scrollTop > 50) {
     navBar.style.backgroundColor="white";
     navBtn.style.backgroundColor="green"
-    console.log("scroll")
+    //console.log("scroll")
 
   } 
 }
