@@ -21,13 +21,14 @@ body{
 }
 
 nav{
-    padding:25px 5%;
+    padding:25px 10%;
     height: 25px;
     display: flex;
     flex-direction: row;
     background-color: #FFC017;
     border-bottom: 1px solid black;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 2;
 }
 .nav-spacing{
@@ -59,19 +60,20 @@ nav{
     padding: 10px 15px;
 }
 .hero .blackBtn{
-    margin-bottom: 3.2rem;
+    margin-bottom: 3.7rem;
     font-size: 1.1rem;
-    padding: 10px 15%;
+    padding: 10px 10%;
 }
 
 
 .hero{
-    padding-left: 5%;
+    padding-left: 15%;
     background-color: #FFC017;
     border-bottom: 1px solid black;
     display: flex;
     justify-content:space-between;
     z-index: 1;
+    padding-top: 2rem;
 }
 .hero h1{
     padding-top: 2.2rem;
@@ -105,13 +107,66 @@ main
     background-color: white;
     position: relative;
     z-index: 3;
-    padding-left: 5%;
-    padding-right: 5%;
+    
     padding-top: 2rem;
 }
+.trending{
+    padding-left: 15%;
+    padding-right: 15%;
+    border-bottom: 2px solid #E3E4E4;
+}
+
 .trending h2{
     font-family: "Spectral", serif;
     font-size: 1rem;
     font-weight: 700;
 
+}
+
+.trendingArticles{
+display: flex;
+flex-wrap: wrap;
+margin-top: 1rem;
+
+}
+.trendArticle{
+    width: 33%;
+    margin-bottom: 2.5rem;
+
+}
+.trendArticle img{
+    width: 2rem;
+    border-radius: 10px;
+    margin-right: 1.2rem;
+}
+.greyText{
+    color: grey;
+}
+.flexArticle{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.trendArticle h5{
+    color: #E6E7E6;
+    font-family: "Spectral", serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-right: 1.5rem;
+}
+.trendArticle p{
+    color: #6B7481;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.trendArticle h4{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.trendArticle h3{
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
