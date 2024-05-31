@@ -25,6 +25,22 @@ const opacityInterval=setInterval(function(){
         mListOperable[cont].style.opacity=0;
     }
     
-    console.log("sas");
+    //console.log("sas");
     
 },100)
+
+
+
+scrollNavbar = () => {
+    const navBar = document.getElementsByTagName("nav")[0];
+    const navBtn=document.getElementsByClassName("blackBtn")[0];
+    console.log("scroll")
+  if (document.documentElement.scrollTop > 50) {
+    navBar.style.backgroundColor="white";
+    navBtn.style.backgroundColor="green"
+    console.log("scroll")
+
+  } 
+}
+
+window.onscroll = () => {scrollNavbar()};
